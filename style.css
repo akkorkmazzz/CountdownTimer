@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,200&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./newyear.jpg");
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+}
+
+.countdown-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-weight: normal;
+    font-size: 5rem;
+    color: #FF942F;
+}
+.text{
+    font-weight: bold;
+    color: #FF942F;
+    font-size: 8rem;
+    line-height: 1;
+    margin: 0 3rem;
+}
+.countdown-d{
+    text-align: center;
+}
+.countdown-d span{  
+    color: #FF942F;
+    margin: 0 4rem;
+    font-size: 2rem;
+}
